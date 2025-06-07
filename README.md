@@ -86,7 +86,8 @@ npm install react-konva konva use-image
 
 ## 📸 Demo
 
-> a Loom/GIF demo link https://my-era-intern-nitish.netlify.app/
+> a Loom/GIF demo link ![Demo](https://github.com/TechKumarNitish/myera-sticker-app-intern-assignment-round/blob/main/demo.gif?raw=true)
+
 
 ## 🧠 Author
 
