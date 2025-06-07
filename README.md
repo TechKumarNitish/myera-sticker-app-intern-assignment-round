@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+`myera-sticker-app-intern-assignment-round`
+**"StickerCanvas"**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
 
-In the project directory, you can run:
+# 🖼️ StickerCanvas – MyEra Internship Assignment
 
-### `npm start`
+A minimal React + Konva app where users can drag and drop stickers onto a canvas, reposition them freely, and export their creation as a PNG image.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🚀 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🎨 600×400 Konva canvas
+- 😀 3 draggable stickers (emoji or PNGs)
+- 🖱️ Click a sticker to drop it at a default location
+- 🧲 Drag-and-drop enabled across the canvas
+- 💾 Download button to export canvas as PNG
+- ✂️ Bonus: Double-click to delete a sticker
+- 📏 Optional: Snap stickers to 40px grid (toggle logic ready)
 
-### `npm test`
+## 🔧 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚛️ React (Functional Components)
+- 🧱 Konva + react-konva
+- 💅 Modular file structure, clean code standards
+- 🚫 No backend or data persistence
 
-### `npm run build`
+## 📁 Folder Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```md
+StickerCanvas/
+├── public/
+│   └── stickers/
+│       ├── emoji1.png
+│       ├── emoji2.png
+│       └── emoji3.png
+├── src/
+│   ├── components/
+│   |    ├── CanvasBoard/
+|   |    |    ├── index.js
+│   |    |    └──index.css
+│   |    ├── DownloadButton/
+|   |    |    ├── index.js
+│   |    |    └── index.css
+│   |    └── StickerToolbar/
+|   |        ├── index.js
+│   |        └── index.css
+│   |
+│   ├── App.jsx
+|   ├── App.css
+|   ├── index.css
+│   └── index.js
+├── package.json
+└── README.md
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+````
 
-### `npm run eject`
+## 🛠️ Setup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/TechKumarNitish/myera-sticker-app-intern-assignment-round.git
+cd myera-sticker-app-intern-assignment-round
+npm install
+npm start
+````
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* `react-konva`
+* `konva`
+* `use-image`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Install missing ones if needed:
 
-## Learn More
+```bash
+npm install react-konva konva use-image
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧪 Bonus Enhancements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* ✅ Double-click to remove stickers
+* ✅ Stickers randomly placed within bounds
+* 🧲 Grid snapping support planned (40px step)
 
-### Code Splitting
+## 📸 Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+> Add a Loom/GIF demo link here if available!
 
-### Analyzing the Bundle Size
+## 🧠 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Nitish Kumar**
+📫 [GitHub](https://github.com/TechKumarNitish)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+© 2025 – Built for MyEra Internship Assignment
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Let me know if you want a badge-style README or add Netlify deploy instructions!
+```
