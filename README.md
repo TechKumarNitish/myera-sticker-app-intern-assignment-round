@@ -96,9 +96,8 @@ npm install react-konva konva use-image
 
 © 2025 – Built for MyEra Internship Assignment
 
-```
 
 ---
 
 Let me know if you want a badge-style README or add Netlify deploy instructions!
-```
+
